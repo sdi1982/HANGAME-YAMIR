@@ -1,0 +1,1300 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Resource title="untitled" author="GameOVEN">
+    <CursorList />
+    <SceneList>
+        <ObjectColor>
+            <Type name="Scene" color="FF000000" />
+            <Type name="StaticImage" color="FFD2B48C" />
+            <Type name="Text" color="FFDDA0DD" />
+            <Type name="ImageNumber" color="FFDD0000" />
+            <Type name="Group" color="FFFFFF00" />
+            <Type name="Image" color="FFE9967A" />
+            <Type name="Button" color="FFF08080" />
+            <Type name="CheckBox" color="FFCD5C5C" />
+            <Type name="RadioButton" color="FFFFA07A" />
+            <Type name="Edit" color="FFDB7093" />
+            <Type name="ListView" color="FFF4A460" />
+            <Type name="TextList" color="FFF40060" />
+            <Type name="HorzScrollBar" color="FFFA8072" />
+            <Type name="VertScrollBar" color="FFFA8072" />
+            <Type name="HorzProgressBar" color="FFFF6347" />
+            <Type name="VertProgressBar" color="FFFF6347" />
+            <Type name="HorzSlideBar" color="FFAF2307" />
+            <Type name="VertSlideBar" color="FFAF2307" />
+            <Type name="ComboBox" color="FFFF4500" />
+            <Type name="WebImage" color="FF7B68EE" />
+            <Type name="Hgs" color="FFF0E68C" />
+            <Type name="Hsv" color="FFCD853F" />
+            <Type name="Hef" color="FF10AO30" />
+        </ObjectColor>
+        <Scene id="1" name="GameScene" cursor="-1" classname="SnakeScene">
+            <Object type="StaticImage" id="6" name="game_window" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="600" />
+                <Image name="images\gamewindow01.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="57" name="game_user_status1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="697.000000" y="79.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="93" height="98" />
+                <Image name="images\SNAKE\user_status.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="58" name="game_user_status2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="697.000000" y="424.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="93" height="98" />
+                <Image name="images\SNAKE\user_status.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="59" name="game_user_status3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="10.000000" y="79.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="93" height="98" />
+                <Image name="images\SNAKE\user_status.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="60" name="game_user_status4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="10.000000" y="231.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="93" height="98" />
+                <Image name="images\SNAKE\user_status.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="61" name="game_user_status5" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="10.000000" y="383.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="93" height="98" />
+                <Image name="images\SNAKE\user_status.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="64" name="big_red_ball" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="707.000000" y="193.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="34" height="34" />
+                <Image name="images\SNAKE\big_red_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="65" name="big_yellow_ball" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="747.000000" y="223.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="34" height="34" />
+                <Image name="images\SNAKE\big_yellow_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="66" name="big_green_ball" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="707.000000" y="253.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="34" height="34" />
+                <Image name="images\SNAKE\big_green_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="67" name="big_blue_ball" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="747.000000" y="282.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="34" height="34" />
+                <Image name="images\SNAKE\big_blue_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="68" name="big_black_ball" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="707.000000" y="313.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="34" height="34" />
+                <Image name="images\SNAKE\big_black_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="69" name="big_grey_ball" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="747.000000" y="342.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="34" height="34" />
+                <Image name="images\SNAKE\big_grey_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="70" name="big_white_ball" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="707.000000" y="373.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="34" height="34" />
+                <Image name="images\SNAKE\big_white_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="71" name="small_red_ball1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="16.000000" y="186.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_red_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="72" name="small_yellow_ball1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="40.000000" y="186.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_yellow_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="73" name="small_green_ball1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="64.000000" y="186.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_green_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="74" name="small_blue_ball1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="88.000000" y="186.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_blue_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="75" name="small_black_ball1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="28.000000" y="207.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_black_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="76" name="small_grey_ball1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="52.000000" y="206.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_grey_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="77" name="small_white_ball1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="76.000000" y="206.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_white_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="88" name="small_red_ball2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="16.000000" y="337.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_red_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="90" name="small_yellow_ball2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="40.000000" y="338.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_yellow_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="92" name="small_green_ball2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="64.000000" y="338.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_green_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="94" name="small_blue_ball2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="88.000000" y="339.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_blue_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="95" name="small_black_ball2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="28.000000" y="358.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_black_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="96" name="small_grey_ball2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="53.000000" y="358.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_grey_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="97" name="small_white_ball2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="76.000000" y="358.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_white_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="98" name="small_red_ball3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="16.000000" y="490.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_red_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="99" name="small_yellow_ball3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="41.000000" y="490.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_yellow_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="102" name="small_green_ball3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="65.000000" y="490.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_green_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="103" name="small_blue_ball3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="88.000000" y="491.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_blue_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="104" name="small_black_ball3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="27.000000" y="509.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_black_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="105" name="small_grey_ball3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="52.000000" y="510.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_grey_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="106" name="small_white_ball3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="75.000000" y="509.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="10" height="10" />
+                <Image name="images\SNAKE\small_white_ball.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="107" name="game_snake1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="701.000000" y="83.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\SNAKE\game_snake.png" left="0" top="0" right="0" bottom="0" column="9" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="108" name="game_snake2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="701.000000" y="428.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\SNAKE\game_snake.png" left="0" top="0" right="0" bottom="0" column="9" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="109" name="game_snake3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="14.000000" y="82.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\SNAKE\game_snake.png" left="0" top="0" right="0" bottom="0" column="9" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="110" name="game_snake4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="14.000000" y="235.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\SNAKE\game_snake.png" left="0" top="0" right="0" bottom="0" column="9" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="111" name="game_snake5" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="13.000000" y="386.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\SNAKE\game_snake.png" left="0" top="0" right="0" bottom="0" column="9" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="112" name="major1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="766.000000" y="82.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="113" name="major2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="766.000000" y="428.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="114" name="major3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="79.000000" y="83.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="115" name="major4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="79.000000" y="235.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="116" name="major5" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="79.000000" y="386.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="117" name="level1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="768.000000" y="108.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="118" name="level2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="768.000000" y="453.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="119" name="level3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="81.000000" y="108.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="120" name="level4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="81.000000" y="260.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="121" name="level5" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="81.000000" y="412.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Text" id="122" name="user_id1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="706.000000" y="156.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="123" name="user_id2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="708.000000" y="499.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="124" name="user_id3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="16.000000" y="154.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="125" name="user_id4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="17.000000" y="306.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="126" name="user_id5" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="18.000000" y="458.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Text" id="127" name="map_name" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="14.000000" y="27.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="18.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="StaticImage" id="128" name="message" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="106.000000" y="187.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="600" height="96" />
+                <Image name="images\Message.png" left="0" top="0" right="0" bottom="0" column="1" row="5" nullimage="false" index="0" colorkey="FF000000" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="ImageNumber" id="129" name="time" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="750.500000" y="26.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Image name="images\number1.png" left="0" top="0" right="0" bottom="0" column="10" row="1" nullimage="false" colorkey="0" />
+                <Number value="180" align="Center" />
+            </Object>
+        </Scene>
+        <Scene id="2" name="GameRoom" cursor="-1" classname="GameRoom">
+            <Object type="StaticImage" id="168" name="game_room" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="600" />
+                <Image name="images\gameroom.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Button" id="9" name="ready_btn" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="624.000000" y="374.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="72" height="72" />
+                <Event enabled="true" />
+                <Image name="images\game_room_ready_button.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+            <Object type="Button" id="10" name="map_btn" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="64.000000" y="265.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="72" height="72" />
+                <Event enabled="true" />
+                <Image name="images\game_room_map_button.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+            <Object type="StaticImage" id="28" name="map_view" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="149.000000" y="272.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="152" height="57" />
+                <Image name="images\GAMEROOM\map_view.png" left="0" top="0" right="0" bottom="0" column="1" row="11" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Text" id="29" name="room_name" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="160.000000" y="43.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="18.000000" />
+                <Text string="얌미르 한게임에서 해보자" align="Left" />
+            </Object>
+            <Object type="StaticImage" id="30" name="user_status1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="53.000000" y="81.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="200" height="70" />
+                <Image name="images\GAMEROOM\user_status.png" left="0" top="0" right="0" bottom="0" column="1" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="31" name="user_status2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="268.000000" y="81.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="200" height="70" />
+                <Image name="images\GAMEROOM\user_status.png" left="0" top="0" right="0" bottom="0" column="1" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="32" name="user_status3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="53.000000" y="166.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="200" height="70" />
+                <Image name="images\GAMEROOM\user_status.png" left="0" top="0" right="0" bottom="0" column="1" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="33" name="user_status4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="268.000000" y="166.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="200" height="70" />
+                <Image name="images\GAMEROOM\user_status.png" left="0" top="0" right="0" bottom="0" column="1" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="TextList" id="34" name="textlist1" show="true" defaultshow="true" stretch="true" lock="true">
+                <Position x="53.000000" y="368.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="415" height="146" />
+                <Event enabled="true" />
+                <Image name="" left="0" top="0" right="0" bottom="0" nullimage="true" colorkey="0" />
+                <Font face="Arial Unicode MS" bold="false" height="20.000000" />
+                <Color r="0.000000" g="0.000000" b="0.000000" a="0.000000" />
+                <ClientRect left="0" top="0" right="415" bottom="146" />
+                <Row height="20.000000" />
+                <Wordwrap enabled="false" />
+            </Object>
+            <Object type="Text" id="35" name="text1" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="54.000000" y="528.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.000000" b="0.000000" a="0.000000" />
+                <Font face="Arial Unicode MS" bold="false" height="15.000000" />
+                <Text string="Text" align="Left" />
+            </Object>
+            <Object type="Group" id="36" name="group2" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="494.000000" y="316.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Object type="RadioButton" id="17" name="radiobutton7" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="228.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="38" height="38" />
+                    <Event enabled="true" />
+                    <Image name="images\game_room_color_radio7.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="16" name="radiobutton6" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="190.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="38" height="38" />
+                    <Event enabled="true" />
+                    <Image name="images\game_room_color_radio6.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="15" name="radiobutton5" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="152.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="38" height="38" />
+                    <Event enabled="true" />
+                    <Image name="images\game_room_color_radio5.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="14" name="radiobutton4" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="114.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="38" height="38" />
+                    <Event enabled="true" />
+                    <Image name="images\game_room_color_radio4.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="13" name="radiobutton3" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="76.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="38" height="38" />
+                    <Event enabled="true" />
+                    <Image name="images\game_room_color_radio3.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="12" name="radiobutton2" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="38.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="38" height="38" />
+                    <Event enabled="true" />
+                    <Image name="images\game_room_color_radio2.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+                <Object type="RadioButton" id="11" name="radiobutton1" show="true" defaultshow="true" stretch="false" lock="true">
+                    <Position x="0.000000" y="0.000000" />
+                    <Alpha value="1.000000" />
+                    <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                    <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                    <Size width="38" height="38" />
+                    <Event enabled="true" />
+                    <Image name="images\game_room_color_radio1.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                    <Selected value="false" />
+                </Object>
+            </Object>
+            <Object type="StaticImage" id="37" name="user_level1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="160.000000" y="125.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="38" name="user_level3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="160.000000" y="210.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="39" name="user_level2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="375.000000" y="125.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="40" name="user_level4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="375.000000" y="210.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="18" height="18" />
+                <Image name="images\GAMEROOM\level.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="41" name="user_major1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="128.000000" y="122.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="images\UI\game_room_major.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="42" name="user_major2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="343.000000" y="122.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="images\UI\game_room_major.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="43" name="user_major3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="127.000000" y="207.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="images\UI\game_room_major.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="44" name="user_major4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="343.000000" y="207.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="22" height="22" />
+                <Image name="images\UI\game_room_major.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="45" name="user_ready1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="191.000000" y="122.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="52" height="22" />
+                <Image name="images\GAMEROOM\ready.png" left="0" top="0" right="0" bottom="0" column="1" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="46" name="user_ready2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="406.000000" y="122.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="52" height="22" />
+                <Image name="images\GAMEROOM\ready.png" left="0" top="0" right="0" bottom="0" column="1" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="47" name="user_ready3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="191.000000" y="207.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="52" height="22" />
+                <Image name="images\GAMEROOM\ready.png" left="0" top="0" right="0" bottom="0" column="1" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="48" name="user_ready4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="407.000000" y="207.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="52" height="22" />
+                <Image name="images\GAMEROOM\ready.png" left="0" top="0" right="0" bottom="0" column="1" row="7" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="50" name="snake_kind1" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="57.000000" y="85.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\GAMEROOM\user_status_snake.png" left="0" top="0" right="0" bottom="0" column="7" row="8" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="51" name="snake_kind2" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="272.000000" y="85.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\GAMEROOM\user_status_snake.png" left="0" top="0" right="0" bottom="0" column="7" row="8" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="52" name="snake_kind3" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="57.000000" y="170.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\GAMEROOM\user_status_snake.png" left="0" top="0" right="0" bottom="0" column="7" row="8" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="StaticImage" id="53" name="snake_kind4" show="true" defaultshow="false" stretch="false" lock="true">
+                <Position x="272.000000" y="170.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Image name="images\GAMEROOM\user_status_snake.png" left="0" top="0" right="0" bottom="0" column="7" row="8" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Button" id="56" name="exit_btn" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="574.000000" y="455.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="72" height="72" />
+                <Event enabled="true" />
+                <Image name="images\game_room_out_button.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+            <Object type="RadioButton" id="18" name="snake_random" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="506.000000" y="134.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Event enabled="true" />
+                <Image name="images\GAMEROOM\snake_view_random.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Selected value="false" />
+            </Object>
+            <Object type="RadioButton" id="23" name="snake7" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="506.000000" y="223.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Event enabled="true" />
+                <Image name="images\GAMEROOM\snake_view_red7.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Selected value="false" />
+            </Object>
+            <Object type="RadioButton" id="24" name="snake6" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="596.000000" y="224.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Event enabled="true" />
+                <Image name="images\GAMEROOM\snake_view_red6.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Selected value="false" />
+            </Object>
+            <Object type="RadioButton" id="25" name="snake5" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="686.000000" y="225.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Event enabled="true" />
+                <Image name="images\GAMEROOM\snake_view_red5.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Selected value="false" />
+            </Object>
+            <Object type="RadioButton" id="22" name="snake4" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="686.000000" y="132.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Event enabled="true" />
+                <Image name="images\GAMEROOM\snake_view_red4.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Selected value="false" />
+            </Object>
+            <Object type="RadioButton" id="21" name="snake3" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="686.000000" y="44.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Event enabled="true" />
+                <Image name="images\GAMEROOM\snake_view_red3.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Selected value="false" />
+            </Object>
+            <Object type="RadioButton" id="20" name="snake2" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="596.000000" y="44.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Event enabled="true" />
+                <Image name="images\GAMEROOM\snake_view_red2.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Selected value="false" />
+            </Object>
+            <Object type="RadioButton" id="19" name="snake1" show="true" defaultshow="true" stretch="false" lock="true">
+                <Position x="506.000000" y="44.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="62" height="62" />
+                <Event enabled="true" />
+                <Image name="images\GAMEROOM\snake_view_red1.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Selected value="false" />
+            </Object>
+            <Object type="Button" id="136" name="how_btn" show="true" defaultshow="true" stretch="true" lock="false">
+                <Position x="677.000000" y="451.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="95" height="32" />
+                <Event enabled="true" />
+                <Image name="images\how_button.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+            <Object type="Button" id="137" name="credit_btn" show="true" defaultshow="true" stretch="true" lock="false">
+                <Position x="677.000000" y="486.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="95" height="32" />
+                <Event enabled="true" />
+                <Image name="images\credit_button.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+            <Object type="CheckBox" id="175" name="bgm_btn" show="true" defaultshow="true" stretch="true" lock="false">
+                <Position x="719.000000" y="364.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="44" height="41" />
+                <Event enabled="true" />
+                <Image name="images\bgm_button.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Checked value="false" />
+            </Object>
+            <Object type="CheckBox" id="176" name="es_btn" show="true" defaultshow="true" stretch="true" lock="false">
+                <Position x="719.000000" y="405.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="44" height="41" />
+                <Event enabled="true" />
+                <Image name="images\es_button.png" left="0" top="0" right="0" bottom="0" column="8" row="1" nullimage="false" colorkey="0" />
+                <Checked value="false" />
+            </Object>
+        </Scene>
+        <Scene id="3" name="RevLogo" cursor="-1" classname="RevLogo">
+            <Object type="StaticImage" id="131" name="staticimage1" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="600" />
+                <Image name="images\logo.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+        </Scene>
+        <Scene id="4" name="Title" cursor="-1" classname="Title">
+            <Object type="StaticImage" id="135" name="staticimage2" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="0.000000" y="0.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="600" />
+                <Image name="images\title.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+        </Scene>
+        <Scene id="5" name="Credit" cursor="-1" classname="Credit">
+            <Object type="Image" id="171" name="credit_img" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="-1.000000" y="-1.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="600" />
+                <Event enabled="false" />
+                <Image name="images\logo.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Text" id="142" name="text2" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="77.000000" y="30.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="0.800000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="30.000000" />
+                <Text string="만든사람" align="Left" />
+            </Object>
+            <Object type="Text" id="143" name="text3" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="79.000000" y="81.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="0.000000" b="0.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="기획" align="Left" />
+            </Object>
+            <Object type="Text" id="144" name="text4" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="31.000000" y="226.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="0.000000" g="1.000000" b="0.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="프로그래밍" align="Left" />
+            </Object>
+            <Object type="Text" id="145" name="text5" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="504.000000" y="412.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="0.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="사운드" align="Left" />
+            </Object>
+            <Object type="Text" id="146" name="text6" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="520.000000" y="81.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="0.400000" b="0.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="그래픽" align="Left" />
+            </Object>
+            <Object type="Text" id="147" name="text7" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="106.000000" y="128.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="이왕희" align="Left" />
+            </Object>
+            <Object type="Text" id="149" name="text9" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="144.000000" y="257.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="김태훈" align="Left" />
+            </Object>
+            <Object type="Text" id="150" name="text10" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="54.000000" y="272.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="김연준" align="Left" />
+            </Object>
+            <Object type="Text" id="151" name="text11" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="50.000000" y="337.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="김태영" align="Left" />
+            </Object>
+            <Object type="Text" id="152" name="text12" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="140.000000" y="323.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="박상훈" align="Left" />
+            </Object>
+            <Object type="Text" id="153" name="text13" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="92.000000" y="389.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="윤선정" align="Left" />
+            </Object>
+            <Object type="Text" id="154" name="text14" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="173.000000" y="374.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="신동인" align="Left" />
+            </Object>
+            <Object type="Text" id="155" name="text15" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="65.000000" y="439.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="이창열" align="Left" />
+            </Object>
+            <Object type="Text" id="156" name="text16" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="175.000000" y="426.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="배인호" align="Left" />
+            </Object>
+            <Object type="Text" id="157" name="text17" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="43.000000" y="507.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="김혜원" align="Left" />
+            </Object>
+            <Object type="Text" id="158" name="text18" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="149.000000" y="471.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="윤수미" align="Left" />
+            </Object>
+            <Object type="Text" id="159" name="text19" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="266.000000" y="418.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="이정선" align="Left" />
+            </Object>
+            <Object type="Text" id="160" name="text20" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="351.000000" y="428.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="권상구" align="Left" />
+            </Object>
+            <Object type="Text" id="161" name="text21" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="278.000000" y="474.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="김대욱" align="Left" />
+            </Object>
+            <Object type="Text" id="162" name="text22" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="482.000000" y="123.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼모음T" bold="true" height="24.000000" />
+                <Text string="홍인혁" align="Left" />
+            </Object>
+            <Object type="Text" id="163" name="text8" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="601.000000" y="138.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="김문영" align="Left" />
+            </Object>
+            <Object type="Text" id="164" name="text23" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="526.000000" y="181.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="최우진" align="Left" />
+            </Object>
+            <Object type="Text" id="165" name="text24" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="545.000000" y="452.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="박영진" align="Left" />
+            </Object>
+            <Object type="Text" id="166" name="text25" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="633.000000" y="191.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="장민영" align="Left" />
+            </Object>
+            <Object type="Text" id="167" name="text26" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="615.000000" y="254.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Color r="1.000000" g="1.000000" b="1.000000" a="1.000000" />
+                <Font face="휴먼매직체" bold="true" height="24.000000" />
+                <Text string="조성옥" align="Left" />
+            </Object>
+            <Object type="Button" id="172" name="goto_room_btn" show="true" defaultshow="true" stretch="true" lock="false">
+                <Position x="660.000000" y="535.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="95" height="32" />
+                <Event enabled="true" />
+                <Image name="images\back_button.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+        </Scene>
+        <Scene id="8" name="How" cursor="-1" classname="How">
+            <Object type="Image" id="170" name="how_img" show="true" defaultshow="true" stretch="false" lock="false">
+                <Position x="-1.000000" y="-1.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="800" height="600" />
+                <Event enabled="false" />
+                <Image name="images\howto.png" left="0" top="0" right="0" bottom="0" column="1" row="1" nullimage="false" index="0" colorkey="0" />
+                <Flip vert="false" horz="false" />
+            </Object>
+            <Object type="Button" id="173" name="btn1" show="true" defaultshow="true" stretch="true" lock="false">
+                <Position x="660.000000" y="536.000000" />
+                <Alpha value="1.000000" />
+                <Rotate angle="0.000000" xpivot="0.000000" ypivot="0.000000" />
+                <Clip enabled="false" left="0" top="0" right="0" bottom="0" />
+                <Size width="95" height="32" />
+                <Event enabled="true" />
+                <Image name="images\back_button.png" left="0" top="0" right="0" bottom="0" column="4" row="1" nullimage="false" colorkey="0" />
+            </Object>
+        </Scene>
+    </SceneList>
+    <SoundList>
+        <Sound type="Stream2D" id="10000" filename="sounds\2.wav" name="snd1" />
+        <Sound type="Stream2D" id="10001" filename="sounds\2.wav" name="snd2" />
+        <Sound type="Stream2D" id="10002" filename="sounds\3.wav" name="snd3" />
+        <Sound type="Stream2D" id="10003" filename="sounds\4.wav" name="snd4" />
+        <Sound type="Stream2D" id="10004" filename="sounds\5.wav" name="snd5" />
+        <Sound type="Stream2D" id="10005" filename="sounds\6.wav" name="snd6" />
+        <Sound type="Sound2D" id="10006" filename="sounds\7.wav" name="snd7" />
+        <Sound type="Sound2D" id="10007" filename="sounds\8.wav" name="snd8" />
+        <Sound type="Sound2D" id="10008" filename="sounds\title.wav" name="title_snd" />
+        <Sound type="Sound2D" id="10009" filename="sounds\logo.wav" name="logo_snd" />
+    </SoundList>
+    <StringList />
+</Resource>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GOProject>
+    <Setting>
+        <Run TotalClients="1" />
+        <Debug Mode="Server" TotalClients="1" TargetClient="1" />
+    </Setting>
+    <Scene ID="1" />
+    <Open>
+        <Script Name="SnakeServerApp.lua" Path="SnakeServerApp.lua" Order="0" />
+    </Open>
+    <Debug />
+</GOProject>

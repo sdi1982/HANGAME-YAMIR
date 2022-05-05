@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GOProject>
+    <Setting>
+        <Run TotalClients="1" />
+        <Debug Mode="Server" TotalClients="1" TargetClient="1" />
+    </Setting>
+    <Open>
+        <Script Name="SnakeProtocol.lua" Path="SnakeProtocol.lua" Order="0" />
+        <Script Name="SnakeClientApp.lua" Path="SnakeClientApp.lua" Order="0" />
+        <Script Name="GameRoom.lua" Path="GameRoom.lua" Order="0" />
+        <Script Name="SnakeScene.lua" Path="SnakeScene.lua" Order="0" />
+        <Script Name="CharAnimation.lua" Path="CharAnimation.lua" Order="0" />
+        <Script Name="GameRoomUIObject.lua" Path="GameRoomUIObject.lua" Order="0" />
+        <Script Name="SnakeServerApp.lua" Path="SnakeServerApp.lua" Order="0" />
+        <Script Name="RGGameUser.lua" Path="RGGameUser.lua" Order="0" />
+        <Script Name="RGSnake.lua" Path="RGSnake.lua" Order="0" />
+        <Script Name="RGSnakeManager.lua" Path="RGSnakeManager.lua" Order="0" />
+        <Script Name="RGMapInfo.lua" Path="RGMapInfo.lua" Order="0" />
+        <Script Name="RGMap.lua" Path="RGMap.lua" Order="0" />
+        <Script Name="RGWall.lua" Path="RGWall.lua" Order="0" />
+        <Script Name="RGUserData.lua" Path="RGUserData.lua" Order="0" />
+    </Open>
+    <Debug />
+</GOProject>

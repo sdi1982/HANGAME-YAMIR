@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GOProject GameOVEN_Version="1.2.0">
+    <GameInfo>
+        <ClientWindow Width="800" Height="600" />
+        <MaxUser Value="4" />
+        <Fps Value="60" />
+        <Platform Name="idogame" />
+    </GameInfo>
+    <List>
+        <Filter Name="Source Files">
+            <Script Name="server.lua" Path="server.lua" />
+            <Script Name="client.lua" Path="client.lua" />
+            <Script Name="SnakeProtocol.lua" Path="SnakeProtocol.lua" />
+            <Script Name="SnakeScene.lua" Path="SnakeScene.lua" />
+            <Script Name="SnakeServerApp.lua" Path="SnakeServerApp.lua" />
+            <Script Name="SnakeClientApp.lua" Path="SnakeClientApp.lua" />
+            <Script Name="SnakeSoundObject.lua" Path="SnakeSoundObject.lua" />
+            <Script Name="SnakeSceneUIObject.lua" Path="SnakeSceneUIObject.lua" />
+            <Script Name="GameRoom.lua" Path="GameRoom.lua" />
+            <Script Name="GameRoomUIObject.lua" Path="GameRoomUIObject.lua" />
+            <Script Name="RGSnake.lua" Path="RGSnake.lua" />
+            <Script Name="RGSnakeManager.lua" Path="RGSnakeManager.lua" />
+            <Script Name="RGWall.lua" Path="RGWall.lua" />
+            <Script Name="RGMap.lua" Path="RGMap.lua" />
+            <Script Name="RGMapInfo.lua" Path="RGMapInfo.lua" />
+            <Script Name="CharAnimation.lua" Path="CharAnimation.lua" />
+            <Script Name="RGGameUser.lua" Path="RGGameUser.lua" />
+            <Script Name="RGGround.lua" Path="RGGround.lua" />
+            <Script Name="RevLogoUIObject.lua" Path="RevLogoUIObject.lua" />
+            <Script Name="Title.lua" Path="Title.lua" />
+            <Script Name="TitleUIObject.lua" Path="TitleUIObject.lua" />
+            <Script Name="RevLogo.lua" Path="RevLogo.lua" />
+            <Script Name="RGItem.lua" Path="RGItem.lua" />
+            <Script Name="Credit.lua" Path="Credit.lua" />
+            <Script Name="CreditUIObject.lua" Path="CreditUIObject.lua" />
+            <Script Name="How.lua" Path="How.lua" />
+            <Script Name="HowUIObject.lua" Path="HowUIObject.lua" />
+            <Script Name="RGItemManager.lua" Path="RGItemManager.lua" />
+            <Layout Name="GameScene" />
+            <Layout Name="GameRoom" />
+            <Layout Name="RevLogo" />
+            <Layout Name="Title" />
+            <Layout Name="Credit" />
+            <Layout Name="How" />
+        </Filter>
+        <Filter Name="Resource Files">
+            <Filter Name="Image Files">
+                <Image Name="gamewindow01.png" Path="images\gamewindow01.png" />
+                <Image Name="user_status.png" Path="images\SNAKE\user_status.png" />
+                <Image Name="big_red_ball.png" Path="images\SNAKE\big_red_ball.png" />
+                <Image Name="big_yellow_ball.png" Path="images\SNAKE\big_yellow_ball.png" />
+                <Image Name="big_green_ball.png" Path="images\SNAKE\big_green_ball.png" />
+                <Image Name="big_blue_ball.png" Path="images\SNAKE\big_blue_ball.png" />
+                <Image Name="big_black_ball.png" Path="images\SNAKE\big_black_ball.png" />
+                <Image Name="big_grey_ball.png" Path="images\SNAKE\big_grey_ball.png" />
+                <Image Name="big_white_ball.png" Path="images\SNAKE\big_white_ball.png" />
+                <Image Name="small_red_ball.png" Path="images\SNAKE\small_red_ball.png" />
+                <Image Name="small_yellow_ball.png" Path="images\SNAKE\small_yellow_ball.png" />
+                <Image Name="small_green_ball.png" Path="images\SNAKE\small_green_ball.png" />
+                <Image Name="small_blue_ball.png" Path="images\SNAKE\small_blue_ball.png" />
+                <Image Name="small_black_ball.png" Path="images\SNAKE\small_black_ball.png" />
+                <Image Name="small_grey_ball.png" Path="images\SNAKE\small_grey_ball.png" />
+                <Image Name="small_white_ball.png" Path="images\SNAKE\small_white_ball.png" />
+                <Image Name="game_snake.png" Path="images\SNAKE\game_snake.png" />
+                <Image Name="level.png" Path="images\GAMEROOM\level.png" />
+                <Image Name="Message.png" Path="images\Message.png" />
+                <Image Name="number1.png" Path="images\number1.png" />
+            </Filter>
+            <Filter Name="Sound Files">
+                <Sound Name="2.wav" Path="sounds\2.wav" />
+                <Sound Name="3.wav" Path="sounds\3.wav" />
+                <Sound Name="4.wav" Path="sounds\4.wav" />
+                <Sound Name="5.wav" Path="sounds\5.wav" />
+                <Sound Name="6.wav" Path="sounds\6.wav" />
+                <Sound Name="7.wav" Path="sounds\7.wav" />
+                <Sound Name="8.wav" Path="sounds\8.wav" />
+                <Sound Name="title.wav" Path="sounds\title.wav" />
+                <Sound Name="logo.wav" Path="sounds\logo.wav" />
+            </Filter>
+        </Filter>
+    </List>
+</GOProject>

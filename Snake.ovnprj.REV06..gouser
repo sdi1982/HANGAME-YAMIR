@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<GOProject>
+    <Setting>
+        <Run TotalClients="1" />
+        <Debug Mode="Client" TotalClients="1" TargetClient="1" />
+    </Setting>
+    <Open>
+        <Script Name="RGGround.lua" Path="RGGround.lua" Order="0" />
+        <Script Name="SnakeClientApp.lua" Path="SnakeClientApp.lua" Order="0" />
+        <Script Name="GameRoom.lua" Path="GameRoom.lua" Order="0" />
+        <Script Name="RGGameUser.lua" Path="RGGameUser.lua" Order="0" />
+        <Script Name="RGMap.lua" Path="RGMap.lua" Order="0" />
+        <Script Name="RGSnake.lua" Path="RGSnake.lua" Order="0" />
+        <Script Name="RevLogo.lua" Path="RevLogo.lua" Order="0" />
+        <Script Name="RGWall.lua" Path="RGWall.lua" Order="0" />
+        <Script Name="TitleUIObject.lua" Path="TitleUIObject.lua" Order="0" />
+        <Script Name="RGItem.lua" Path="RGItem.lua" Order="0" />
+        <Script Name="SnakeServerApp.lua" Path="SnakeServerApp.lua" Order="0" />
+        <Script Name="SnakeSoundObject.lua" Path="SnakeSoundObject.lua" Order="0" />
+        <Script Name="GameRoomUIObject.lua" Path="GameRoomUIObject.lua" Order="0" />
+        <Script Name="How.lua" Path="How.lua" Order="0" />
+        <Script Name="CreditUIObject.lua" Path="CreditUIObject.lua" Order="0" />
+        <Script Name="Credit.lua" Path="Credit.lua" Order="0" />
+        <Script Name="RevLogoUIObject.lua" Path="RevLogoUIObject.lua" Order="0" />
+        <Script Name="RGSnakeManager.lua" Path="RGSnakeManager.lua" Order="0" />
+        <Script Name="RGMapInfo.lua" Path="RGMapInfo.lua" Order="0" />
+        <Script Name="SnakeScene.lua" Path="SnakeScene.lua" Order="0" />
+        <Script Name="client.lua" Path="client.lua" Order="0" />
+        <Script Name="RGItemManager.lua" Path="RGItemManager.lua" Order="0" />
+        <Script Name="CharAnimation.lua" Path="CharAnimation.lua" Order="0" />
+        <Script Name="SnakeProtocol.lua" Path="SnakeProtocol.lua" Order="0" />
+    </Open>
+    <Debug />
+</GOProject>
